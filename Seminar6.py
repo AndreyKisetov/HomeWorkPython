@@ -8,7 +8,7 @@
 # 2. Задайте список из вещественных чисел. Напишите программу, которая найдёт 
 # разницу между максимальным и минимальным значением дробной части элементов.
 
-# a = [1.1, 1.2, 3.1, 10.01]
+# a = [3, 5, 10.01]
 # b = list(map(lambda i: round((i+0.0)%1, 2), a))
 # a = max(b)-min(b)
 # print(a)
@@ -18,14 +18,13 @@
 
 # n = int(input('Введите число для преобразования: '))
 # n = list(map(lambda i: n//(2**abs(i))%2, [i for i in range(-7, 1)]))
-# n = ' '.join([str(item) for item in n]) 
-# print(n)
+# print(*n)
 
 
 # 4. Реализуйте алгоритм перемешивания списка.
 
 # import random
 
-# a = [1, 3, 4, 5, 6]
-# a = list(map(lambda i: a.pop(random.randint(0, (len(a)-1))), [i for i in a]))
-# print("Перемешенный список:", a)
+# a = [1, 33, 5, 6]
+# b = list(map(lambda i: a.pop(random.randint(0, (len(a)-1))), [i for i in a]))
+# print("Перемешенный список:", b)
