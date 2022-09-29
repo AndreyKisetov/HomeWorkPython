@@ -82,12 +82,13 @@
 #         return a
 #     return 1
     
-# candys = 2021
+# candys = 200
 # i = 0
 # bot = int(input('Введите цифру 1 или 2 в соответствии с очерёдностью хода бота: '))
 # if bot == 1 :
-#     candys = 2001
-#     print(f'Бот ввёл 20 \nОсталось {candys} конфет\n')
+#     ost = candys%29
+#     candys = candys-ost
+#     print(f'Бот ввёл {ost} \nОсталось {candys} конфет\n')
 # while i < candys:
 #     gamer_1 = int(input('Игрок 1 вводит число от 1 до 28 включительно: '))
 #     if candy_game(gamer_1) == None:
