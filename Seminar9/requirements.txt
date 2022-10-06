@@ -1,0 +1,7 @@
+python-telegram-bot
+certifi
+cffi
+cryptography
+future
+pycparser
+six
